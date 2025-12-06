@@ -1,0 +1,147 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.the-first-block {
+  width: 1440px;
+  height: 709px;
+  position: relative;
+}
+
+.the-first-block-text {
+  padding: 160px 586px 48px 142px;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 87px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.furniture-text {
+  color: rgba(129, 114, 83, 1);
+}
+
+.the-first-block-button {
+  width: 344px;
+  height: 80px;
+  border-radius: 12px;
+  background: rgba(229, 240, 182, 1);
+  display: flex;
+  margin-left: 142px;
+}
+
+.magnifier {
+  font-size: 24px;
+  color: rgba(85, 59, 51, 1);
+  padding: 28px 16px 28px 45px;
+}
+
+.magnifier-text {
+  color: rgba(85, 59, 51, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 22px 40px 22px 0px;
+}
+
+.the-first-block-button-two {
+  width: 344px;
+  height: 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(85, 59, 51, 1);
+  border-radius: 12px;
+  display: flex;
+  margin-left: 24px;
+}
+
+.play {
+  font-size: 24px;
+  padding: 28px 16px 28px 62px;
+}
+
+.play-text {
+  color: rgba(85, 59, 51, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 22px 57px 22px 0px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.armchair {
+  position: absolute;
+  left: 918px;
+  top: 0px;
+}
+
+.button-number-fhree {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 93px;
+  height: 52px;
+  position: absolute;
+  left: 966px;
+  top: 381px;
+  z-index: 30;
+  color: rgba(47, 36, 31, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.armchair-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  top: 473px;
+  left: 966px;
+}
+
+.spin {
+  font-size: 24px;
+  padding: 16px 24px 16px 0px;
+}
+
+.armchair-button {
+  width: 197px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(47, 36, 31, 1);
+  display: flex;
+}
+
+.armchair-button-text {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 16px 16px 24px;
+}
+
+.armchair-button-wrapper {
+  position: absolute;
+  top: 566px;
+  left: 966px;
+}
