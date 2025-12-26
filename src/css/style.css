@@ -215,3 +215,99 @@
 .package-icon {
   padding: 46px 100px 46px 0px;
 }
+
+.section-text-wrapper {
+  width: 1441px;
+  height: 486px;
+  background: rgba(47, 36, 31, 1);
+}
+
+.why-text {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 72px 1080px 40px 142px;
+}
+
+.details-and-quality {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -1%;
+  text-align: left;
+  padding: 0px 143px 40px 142px;
+}
+
+.search-wrapper {
+  border-radius: 8px;
+  background: rgba(229, 240, 182, 0.5);
+  width: 40px;
+  height: 40px;
+  margin: 16px 16px 16px 0px;
+}
+
+.search {
+  font-size: 17px;
+  padding: 11px;
+  color: white;
+}
+
+.search-wrapper-div {
+  width: 1157px;
+  height: 72px;
+  display: flex;
+  margin: 0px 142px 72px 142px;
+}
+
+.search-wrapper-div-text {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  padding: 0px 64px 0px 0px;
+  width: 342px;
+}
+
+.five {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 2px 12px;
+}
+
+.five-wrapper-text {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  padding: 0px 64px 0px 0px;
+  width: 353px;
+}
+
+.suitcase {
+  padding: 10px 10px 11px 10px;
+}
+
+.suitcase-text {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  padding: 16px 0px 20px 0px;
+}
