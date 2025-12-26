@@ -311,3 +311,115 @@
   letter-spacing: 0%;
   padding: 16px 0px 20px 0px;
 }
+
+.bestseller-section {
+  width: 1440px;
+  height: 782px;
+  background: rgba(47, 36, 31, 1);
+  position: relative;
+}
+
+.our-products {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -1%;
+  padding: 80px 811px 8px 143px;
+}
+
+.bestseller-text {
+  color: rgba(229, 240, 182, 1);
+  font-family: Inter;
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -1%;
+  padding: 0px 445px 48px 143px;
+}
+
+.bestseller-text-wrapper {
+  display: flex;
+}
+
+.see-more {
+  color: rgba(47, 36, 31, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  border-radius: 12px;
+  background: rgba(229, 240, 182, 1);
+  width: 153px;
+  height: 52px;
+  padding: 14px 35px;
+  margin: 105px 142px 73px 0px;
+}
+
+.turquoise-sofa {
+  position: absolute;
+  top: 230px;
+  right: 1269px;
+}
+
+.white-chair-wrapper {
+  position: absolute;
+  top: 230px;
+  width: 354px;
+  height: 472px;
+  background: url("../img/Rectangle\ 6799.png");
+  left: 207px;
+}
+
+.price-button {
+  width: 93px;
+  height: 52px;
+  color: rgba(47, 36, 31, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin: 318px 237px 8px 24px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.und-chair {
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0%;
+  padding: 0px 103px 36px 24px;
+}
+
+.red-sofa {
+  position: absolute;
+  top: 230px;
+  left: 597px;
+}
+
+.table-image {
+  position: absolute;
+  top: 230px;
+  left: 933px;
+}
+
+.shelf-image {
+  width: 171px;
+  height: 400px;
+  position: absolute;
+  top: 230px;
+  left: 1269px;
+  background: url("../img/Rectangle\ 6800.png");
+}
