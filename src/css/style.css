@@ -383,6 +383,8 @@
   line-height: 22px;
   letter-spacing: -1%;
   padding: 20px 294px 20px 16px;
+}
+
 .section-text-wrapper {
   width: 1441px;
   height: 486px;
@@ -524,7 +526,7 @@
   background: rgba(229, 240, 182, 1);
   width: 153px;
   height: 52px;
-  padding: 14px 35px;
+  padding: 14px 34px;
   margin: 105px 142px 73px 0px;
 }
 
@@ -567,7 +569,7 @@
   font-weight: 400;
   line-height: 58px;
   letter-spacing: 0%;
-  padding: 0px 103px 36px 24px;
+  padding: 0px 100px 36px 24px;
 }
 
 .red-sofa {
