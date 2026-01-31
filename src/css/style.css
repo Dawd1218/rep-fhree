@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --und-chair-color: rgba(255, 255, 255, 1);
+  --become-a-member-color: rgba(47, 36, 31, 1);
+  --green-color-text: rgba(229, 240, 182, 1);
+  --gray-color: rgba(102, 112, 133, 1);
+  --furniture-text-color: rgba(129, 114, 83, 1);
+  --button-color: rgba(85, 59, 51, 1);
+  --green-color-text: rgba(229, 240, 182, 1);
+  --font-family-something: Inter;
+  --font-size-something: 24px;
+}
+
 .the-first-block {
   width: 1440px;
   height: 709px;
@@ -12,16 +24,16 @@
 
 .the-first-block-text {
   padding: 160px 586px 48px 142px;
-  font-family: Inter;
   font-size: 72px;
   font-weight: 800;
   line-height: 87px;
   letter-spacing: -1%;
   text-align: left;
+  font-family: var(--font-family-something);
 }
 
 .furniture-text {
-  color: rgba(129, 114, 83, 1);
+  color: var(--furniture-text-color);
 }
 
 .the-first-block-button {
@@ -34,15 +46,15 @@
 }
 
 .magnifier {
-  font-size: 24px;
-  color: rgba(85, 59, 51, 1);
+  font-size: var(--font-size-something);
+  color: var(--button-color);
   padding: 28px 16px 28px 45px;
 }
 
 .magnifier-text {
-  color: rgba(85, 59, 51, 1);
-  font-family: Inter;
-  font-size: 24px;
+  color: var(--button-color);
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -62,14 +74,14 @@
 }
 
 .play {
-  font-size: 24px;
+  font-size: var(--font-size-something);
   padding: 28px 16px 28px 62px;
 }
 
 .play-text {
   color: rgba(85, 59, 51, 1);
-  font-family: Inter;
-  font-size: 24px;
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -80,6 +92,7 @@
 
 .buttons {
   display: flex;
+  
 }
 
 .armchair {
@@ -98,8 +111,8 @@
   top: 381px;
   z-index: 30;
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
-  font-size: 24px;
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -107,7 +120,7 @@
 
 .armchair-text {
   color: rgba(255, 255, 255, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-size: 64px;
   font-weight: 400;
   line-height: 77px;
@@ -119,7 +132,7 @@
 }
 
 .spin {
-  font-size: 24px;
+  font-size: var(--font-size-something);
   padding: 16px 24px 16px 0px;
   color: #ffffff;
 }
@@ -134,7 +147,7 @@
 
 .armchair-button-text {
   color: rgba(255, 255, 255, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -156,8 +169,8 @@
 
 .decoor-text {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
-  font-size: 24px;
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 700;
   line-height: 77px;
   letter-spacing: -1%;
@@ -198,7 +211,7 @@
 .sign-up {
   color: rgba(47, 36, 31, 1);
 
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -225,7 +238,7 @@
 
 .twenty-five-text {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-size: 96px;
   font-weight: 700;
   line-height: 116px;
@@ -236,8 +249,8 @@
 
 .brands-text {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
-  font-size: 24px;
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0%;
@@ -256,7 +269,7 @@
 }
 
 .gusto-text {
-  font-family: Inter;
+  font-family: var(--font-family-something);
 }
 
 .company-logos {
@@ -291,9 +304,9 @@
 
 .categories-text {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: -1%;
@@ -302,7 +315,7 @@
 
 .furniture-sets-text {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 48px;
   font-weight: 700;
@@ -325,7 +338,7 @@
 .bedroom-text {
   padding: 20px 16px;
   color: rgba(0, 0, 0, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -342,7 +355,7 @@
 
 .living-room-text {
   color: rgba(0, 0, 0, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -354,7 +367,7 @@
 .living-room-text-two {
   padding: 0px 24px 27px 24px;
   color: rgba(0, 0, 0, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -365,7 +378,7 @@
 
 .home-office-text {
   color: rgba(0, 0, 0, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -376,7 +389,7 @@
 
 .gaming-room-text {
   color: rgba(0, 0, 0, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -392,9 +405,9 @@
 }
 
 .why-text {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
-  font-size: 24px;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -403,8 +416,8 @@
 }
 
 .details-and-quality {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
@@ -435,9 +448,9 @@
 }
 
 .search-wrapper-div-text {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
-  font-size: 24px;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
@@ -447,8 +460,8 @@
 
 .five {
   color: rgba(255, 255, 255, 1);
-  font-family: Inter;
-  font-size: 24px;
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
@@ -457,9 +470,9 @@
 }
 
 .five-wrapper-text {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
-  font-size: 24px;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
@@ -472,9 +485,9 @@
 }
 
 .suitcase-text {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
-  font-size: 24px;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
+  font-size: var(--font-size-something);
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0%;
@@ -486,13 +499,14 @@
   height: 782px;
   background: rgba(47, 36, 31, 1);
   position: relative;
+  --green-color-text: rgba(229, 240, 182, 1);
 }
 
 .our-products {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: -1%;
@@ -500,8 +514,8 @@
 }
 
 .bestseller-text {
-  color: rgba(229, 240, 182, 1);
-  font-family: Inter;
+  color: var(--green-color-text);
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 48px;
   font-weight: 700;
@@ -516,14 +530,14 @@
 
 .see-more {
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0%;
   border-radius: 12px;
-  background: rgba(229, 240, 182, 1);
+  background: var(--green-color-text);
   width: 153px;
   height: 52px;
   padding: 14px 34px;
@@ -549,9 +563,9 @@
   width: 93px;
   height: 52px;
   color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -562,8 +576,8 @@
 }
 
 .und-chair {
-  color: rgba(255, 255, 255, 1);
-  font-family: Inter;
+  color: var(--und-chair-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 48px;
   font-weight: 400;
@@ -600,10 +614,10 @@
 }
 
 .limited-deals-text {
-  color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  color: var(--become-a-member-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0%;
@@ -611,8 +625,8 @@
 }
 
 .become-a-member {
-  color: rgba(47, 36, 31, 1);
-  font-family: Inter;
+  color: var(--become-a-member-color);
+  font-family: var(--font-family-something);
   font-style: Bold;
   font-size: 64px;
   font-weight: 700;
@@ -630,9 +644,9 @@
 
 .enter-your-email-here-text {
   color: rgba(85, 59, 51, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Regular;
-  font-size: 24px;
+  font-size: var(--font-size-something);
   font-weight: 400;
   line-height: 36px;
   letter-spacing: -1%;
@@ -642,13 +656,13 @@
 .envelope-wrapper {
   width: 80px;
   height: 80px;
-  background: rgba(229, 240, 182, 1);
+  background: var(--green-color-text);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 
 .mail {
-  font-size: 24px;
+  font-size: var(--font-size-something);
   margin: 28px;
 }
 
@@ -673,8 +687,8 @@
 }
 
 .long-footer-text {
-  color: rgba(102, 112, 133, 1);
-  font-family: Inter;
+  color: var(--gray-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -684,8 +698,8 @@
 }
 
 .copyright-text {
-  color: rgba(102, 112, 133, 1);
-  font-family: Inter;
+  color: var(--gray-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -708,7 +722,7 @@
 
 .support-text-main {
   color: rgba(16, 24, 40, 1);
-  font-family: Inter;
+  font-family: var(--font-family-something);
   font-style: Medium;
   font-size: 20px;
   font-weight: 500;
@@ -718,8 +732,8 @@
 }
 
 .support-text {
-  color: rgba(102, 112, 133, 1);
-  font-family: Inter;
+  color: var(--gray-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
@@ -730,8 +744,8 @@
 
 .first-support-text {
   padding-top: 25px;
-  color: rgba(102, 112, 133, 1);
-  font-family: Inter;
+  color: var(--gray-color);
+  font-family: var(--font-family-something);
   font-style: Regular;
   font-size: 16px;
   font-weight: 400;
